@@ -1,0 +1,25 @@
+{
+  "name": "vue2-and-3",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@9.5.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "3.4.31",
+    "vue2.7": "npm:vue@2.7.16"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vitejs/plugin-vue2": "^2.3.1",
+    "@vue/compiler-sfc": "3.4.31",
+    "@vue/compiler-sfc-2.7": "npm:@vue/compiler-sfc@2.7.16",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3"
+  }
+}
